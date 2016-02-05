@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+    <fragment
+        android:name="andrew.cmu.edu.earthquake.EarthquakeListFragment"
+        android:id="@+id/earthquakelistfragment"
+        android:layout_width="360dp"
+        android:layout_height="match_parent"/>
+    <fragment
+        android:name="andrew.cmu.edu.earthquake.EarthquakeMapFragment"
+        android:id="@+id/EarthquakeMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
